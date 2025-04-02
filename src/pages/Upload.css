@@ -1,0 +1,29 @@
+.upload-container {
+    text-align: center;
+    padding: 30px;
+    background: #fff5f8;
+    min-height: 100vh;
+  }
+  
+  .upload-input {
+    margin-top: 20px;
+    padding: 10px;
+    border: 2px dashed #ff758c;
+    border-radius: 10px;
+  }
+  
+  .upload-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background: #ff758c;
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .upload-button:hover {
+    background: #ff5a79;
+  }
+  

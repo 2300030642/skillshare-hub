@@ -1,0 +1,87 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .profile-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    margin-top: 10px;
+  }
+  
+  .edit-button {
+    background: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 15px;
+  }
+  
+  .edit-button:hover {
+    background: #cc0000;
+  }
+  
+  .previous-posts {
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+  }
+  
+  .post {
+    background: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  .post-text {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .likes {
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .comments {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+  }
+  
+  .comment {
+    background: #f1f1f1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  /* Image Styling for Posts */
+  .post img {
+    width: 100%; /* Make image responsive */
+    max-width: 600px; /* Limit max width */
+    height: auto; /* Maintain aspect ratio */
+    object-fit: cover; /* Prevent stretching */
+    border-radius: 8px;
+  }
+  
+  /* Video Styling */
+  .post video {
+    width: 100%; /* Make video responsive */
+    max-width: 600px; /* Limit max width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px;
+  }
+  
