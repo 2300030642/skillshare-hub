@@ -1,0 +1,27 @@
+.signup-container {
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+  }
+  
+  .signup-box {
+    border: 2px solid #6200ea;
+    border-radius: 8px;
+    padding: 2rem;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .signup-box input {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+  }
+  
+  .signup-box button {
+    padding: 8px 16px;
+    margin-top: 1rem;
+  }
+  
